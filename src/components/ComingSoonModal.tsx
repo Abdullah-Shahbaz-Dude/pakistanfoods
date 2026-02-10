@@ -1,4 +1,4 @@
-import pkfoodIcon from "../assets/pkfood-icon.png";
+import mainLogo from "../assets/mainlogo.png";
 
 export default function ComingSoonModal() {
   const heroImage =
@@ -18,18 +18,13 @@ export default function ComingSoonModal() {
         <div className="absolute inset-0 bg-background-dark/90" aria-hidden />
       </div>
       <div className="relative z-10 w-full max-w-2xl text-center space-y-8 flex flex-col items-center">
-        <div className="flex justify-center mb-8">
+        <div className="flex justify-center">
           <div className="flex items-center gap-3">
-            <div className="p-1 rounded-xl">
-              <img
-                src={pkfoodIcon}
-                alt="Pakistan Foods"
-                className="h-20 w-20 object-contain"
-              />
-            </div>
-            <span className="text-3xl font-bold tracking-tighter text-white uppercase">
-              Pakistan<span className="text-primary">Foods</span>
-            </span>
+            <img
+              src={mainLogo}
+              alt="Pakistan Food - A Project of Sunfood"
+              className="h-32 object-contain object-left "
+            />
           </div>
         </div>
         <div className="space-y-4">
