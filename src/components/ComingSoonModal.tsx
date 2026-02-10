@@ -1,3 +1,5 @@
+import pkfoodIcon from "../assets/pkfood-icon.png";
+
 export default function ComingSoonModal() {
   const heroImage =
     "https://lh3.googleusercontent.com/aida-public/AB6AXuDfilb6YivwCyUDBbA09tYyUPLYTBXH0CsGeSpatCrdebocntGFIymwn_ELWdTeRIrx1T-jRXm0VE1HkkQPPaUFsw3yg7mqv4gIKdn-vGGHJHHxgTUjzc5VK5EVu9jFNlrT6I2WWVoQJ4lHRvsppK1SMwl7Rff6jGwW5yGIfmqLHL4sNM5xVieK3CAL5oAcR4j5trO95_OPk3DCow2dC_JgQIB9By3Klqx6patebjPbfcZj9cz5gLiEryUa_el18bSXJOWa7HBWgcw";
@@ -18,10 +20,12 @@ export default function ComingSoonModal() {
       <div className="relative z-10 w-full max-w-2xl text-center space-y-8 flex flex-col items-center">
         <div className="flex justify-center mb-8">
           <div className="flex items-center gap-3">
-            <div className="bg-primary p-2 rounded-xl">
-              <span className="material-symbols-outlined text-white text-3xl">
-                eco
-              </span>
+            <div className="p-1 rounded-xl">
+              <img
+                src={pkfoodIcon}
+                alt="Pakistan Foods"
+                className="h-20 w-20 object-contain"
+              />
             </div>
             <span className="text-3xl font-bold tracking-tighter text-white uppercase">
               Pakistan<span className="text-primary">Foods</span>
