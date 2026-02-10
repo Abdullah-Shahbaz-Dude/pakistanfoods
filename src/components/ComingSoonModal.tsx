@@ -1,21 +1,19 @@
 import mainLogo from "../assets/mainlogo.png";
+import bgImage from "../assets/image-2.jpg.jpeg";
 
 export default function ComingSoonModal() {
-  const heroImage =
-    "https://lh3.googleusercontent.com/aida-public/AB6AXuDfilb6YivwCyUDBbA09tYyUPLYTBXH0CsGeSpatCrdebocntGFIymwn_ELWdTeRIrx1T-jRXm0VE1HkkQPPaUFsw3yg7mqv4gIKdn-vGGHJHHxgTUjzc5VK5EVu9jFNlrT6I2WWVoQJ4lHRvsppK1SMwl7Rff6jGwW5yGIfmqLHL4sNM5xVieK3CAL5oAcR4j5trO95_OPk3DCow2dC_JgQIB9By3Klqx6patebjPbfcZj9cz5gLiEryUa_el18bSXJOWa7HBWgcw";
-
   return (
     <div className="fixed inset-0 z-[100] flex flex-col items-center justify-center min-h-screen w-full p-6 md:p-12">
       {/* Underlying background image */}
       <div className="absolute inset-0">
         <img
-          alt="Artisanal jars of pickles and spices"
+          alt="Pakistan Foods products and spices"
           className="w-full h-full object-cover"
-          src={heroImage}
-          data-alt="Close up photography of glass jars with pickles and spices"
+          src={bgImage}
         />
         {/* Semi-transparent dark overlay so content stays readable */}
-        <div className="absolute inset-0 bg-background-dark/90" aria-hidden />
+        <div className="absolute inset-0 bg-background-dark/95" aria-hidden />
+        {/* <div className="absolute inset-0 bg-background-dark/98" aria-hidden /> */}
       </div>
       <div className="relative z-10 w-full max-w-2xl text-center space-y-8 flex flex-col items-center">
         <div className="flex justify-center">
